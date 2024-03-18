@@ -1,0 +1,49 @@
+/* Global Styles */
+body {
+    background-color: #fff; /* White background */
+    color: #4d463f; /* Brown text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Room Description Section */
+.room-description {
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.room-info {
+    flex: 1;
+}
+
+.room-title {
+    color: #5e4934; /* Dark brown room title */
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow effect */
+}
+
+.room-text {
+    text-align: justify;
+}
+
+.room-carousel {
+    flex: 1;
+}
+
+/* Carousel Styling */
+.carousel-item img {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Image shadow effect */
+    transition: transform 0.5s ease; /* Smooth image transition */
+}
+
+.carousel-item img:hover {
+    transform: scale(1.1); /* Image zoom effect on hover */
+}
+
+

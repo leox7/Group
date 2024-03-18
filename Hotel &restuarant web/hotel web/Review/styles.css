@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f6e9; /* Creamy background */
+    color: #56483e; /* Brown text color */
+    margin: 0;
+    padding: 0;
+}
+
+.latest {
+    padding: 50px;
+}
+
+.separator {
+    border: none;
+    border-top: 2px solid #5e4934; /* Dark brown separator */
+    margin: 20px 0;
+}
+
+.title {
+    color: #5e4934; /* Dark brown title */
+    text-align: center;
+}
+
+.subtitle {
+    color: #5e4934; /* Dark brown subtitle */
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.testimonial-header {
+    color: #5e4934; /* Dark brown testimonial header */
+    text-align: center;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+.testimonial h4 {
+    color: #5e4934; /* Dark brown testimonial title */
+}
+
+.testimonial p {
+    text-align: justify;
+}
+
+.feedback-header {
+    color: #5e4934; /* Dark brown feedback header */
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+}
+
+.form-floating {
+    width: 100%;
+}
+
+.input-label {
+    color: #5e4934; /* Dark brown input label */
+}
+
+.submit-btn {
+    background-color: #5e4934; /* Dark brown submit button background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #423728; /* Darker brown submit button background on hover */
+}
